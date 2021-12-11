@@ -47,6 +47,7 @@ public class UserController {
      * @param userId
      * @return
      */
+    //西瓜
     @RequestMapping("/deluser")
     public String del(Integer userId){
 
