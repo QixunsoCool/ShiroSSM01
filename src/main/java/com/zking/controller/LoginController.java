@@ -46,7 +46,7 @@ public class LoginController {
         }catch(IncorrectCredentialsException e){
             msg="密码错误";
             code=0;
-        }
+        }//9
         map.put("code",code);
         map.put("msg",msg);
         session.setAttribute("map",map);
