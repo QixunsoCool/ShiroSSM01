@@ -24,6 +24,6 @@ public class IndexController {
         session.setAttribute("u",user);
         return "editUser";
     }
-
+//啥啥啥
 
 }
