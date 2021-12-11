@@ -42,6 +42,11 @@ public class UserController {
         }
     }
 
+    /**
+     * 测试git
+     * @param userId
+     * @return
+     */
     @RequestMapping("/deluser")
     public String del(Integer userId){
 
